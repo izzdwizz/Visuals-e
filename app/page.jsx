@@ -26,7 +26,9 @@ export default function Home() {
 				className='text-2xl text-black bg-slate-400 rounded-xl cursor-pointer'
 				onClick={() => {
 					alert('Make money');
+					console.log('sus activity');
 				}}
+				onMouseEnter={toggleModal}
 			>
 				{' '}
 				Hello
